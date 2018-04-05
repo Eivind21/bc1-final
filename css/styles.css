@@ -1,0 +1,106 @@
+ /* Resets */
+ * {
+     margin:0;
+ }
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+/* /Resets*/
+
+/* Helper Classes */
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float: right;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.centered {
+    margin: 0 auto;
+}
+/* /Helper Classes */
+
+/* Navbar */
+.nav {
+    background-color: #000;
+}
+.logo {
+    height: 75px;
+}
+.nav-links {
+    margin-top: 24px;
+}
+.nav-links li {
+    display: inline-block;
+    margin-right: 15px;
+}
+.link {
+    color: #ff0;
+    padding: 5px 10px;
+    border-radius: 100%;
+}
+.link:hover {
+    background-color: #ff0;
+    color: #000;
+}
+.link.active {
+    background-color: #ff0;
+    color: #000;
+}
+/* /Navbar */
+
+/* Main */
+.hero {
+    height: 500px;
+    background-image: url("../img/hero.jpg")
+}
+.welcome {
+    height: 500px;
+}
+.side-menu {
+    height: inherit;
+    background: orange;
+    width: 25%;
+}
+.content {
+    height: inherit;
+    background: blue;
+    width: 75%;
+}
+/* /Main */
+
+/* Footer */
+.box {
+    width: calc(100% / 3);
+    height: 135px;
+    float: left;
+}
+.one {
+    background-color: lightblue;
+}
+.two {
+    background-color: lightgreen;
+}
+.three {
+    background-color: hotpink;
+}
+.i-container {
+    width: 125px;
+    margin: 10px auto;
+}
+.i-wrap {
+    width: 36px;
+}
+.icon {
+    color: #000;
+    font-size: 36px;
+}
+
+/* /Footer */
